@@ -23,8 +23,8 @@ fun getWords(_lines: Array<String>, windowSize: Int): Array<String> {
     lines[0] = "*START* " + lines[0]
     for (i in 0..windowSize)
         lines[lines.size-1] += " *END* "
-    for (i in 0..lines.size-1) {
-        ",.!?-\";:')".map {
+    for (i in 0 until lines.size) {
+        ",.!?\";:')".map {
             lines[i] = lines[i].replace(it.toString(), it + " ")
         }
         wordsArray += (lines[i] + " %")

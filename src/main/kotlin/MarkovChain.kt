@@ -42,7 +42,7 @@ class MarkovChain(windowSize: Int) {
         val listOfPairs = chains[key]!!.toList()
         var randList = listOf<String>()
         for (pair in listOfPairs) {
-            for (i in 0..pair.second-1)
+            for (i in 0 until pair.second)
                 randList += pair.first
         }
         val randNumber = Math.random()
