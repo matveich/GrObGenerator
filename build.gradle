@@ -16,7 +16,7 @@ apply plugin: 'kotlin'
 apply plugin:'application'
 mainClassName = "BotKt"
 applicationName = "grob"
-task stage(dependsOn: ['clean', 'installApp'])
+task stage(dependsOn: ['clean', 'installGrob'])
 
 sourceCompatibility = 1.8
 
