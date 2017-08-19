@@ -1,1 +1,1 @@
-web: ./build/install/grob/bin/grob
+web: java -jar build/libs/GrObGenerator-1.0.jar
