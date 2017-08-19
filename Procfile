@@ -1,1 +1,1 @@
-web: build/install/grob_generator/bin/grob_generator
+web: java -jar build/libs/grob_generator-1.0.jar
