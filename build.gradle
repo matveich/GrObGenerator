@@ -36,6 +36,9 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+mainClassName = "BotKt"
+applicationName = "grob"
+
 task stage {
     dependsOn installDist
 }
