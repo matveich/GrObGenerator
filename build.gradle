@@ -11,6 +11,11 @@ buildscript {
     }
 }
 
+jar {
+    baseName = 'grob_generator'
+    version = '1.0'
+}
+
 apply plugin: 'java'
 apply plugin: 'kotlin'
 apply plugin:'application'

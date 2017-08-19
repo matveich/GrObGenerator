@@ -1,1 +1,1 @@
-web: java -jar build/libs/GrObGenerator-1.0.jar
+web: java -jar build/libs/grob_generator-1.0.jar
