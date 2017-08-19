@@ -36,6 +36,10 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+task stage {
+    dependsOn installDist
+}
+
 jar {
     baseName = 'grob_generator'
     version = '1.0'
